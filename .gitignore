@@ -1,0 +1,110 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+*.whl
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# uv
+.uv/
+
+# Distribution / packaging
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+htmlcov/
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+coverage.json
+htmlcov/
+.tox/
+nosetests.xml
+test-results/
+junit.xml
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+pyrightconfig.json
+
+# Linting / formatting
+.ruff_cache/
+
+# Secrets & environment variables — NEVER commit these
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+kubeconfig
+kubeconfig.*
+*.kubeconfig
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+alembic/versions/*.pyc
+
+# Logs
+*.log
+logs/
+*.out
+
+# Kubernetes / Helm
+*.secret.yaml
+*.secret.yml
+charts/*.tgz
+charts/*/charts/
+
+# IDE
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json.example
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter (si jamais)
+.ipynb_checkpoints/
+*.ipynb
+
+# Temporary
+*.tmp
+*.bak
+*.orig
+/tmp/
+
+# ai 
+.claude
+CLAUDE.md
